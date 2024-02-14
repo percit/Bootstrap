@@ -1,5 +1,10 @@
 #!/bin/bash
 
 #pobierz rofi
-#ustaw ta fajna wersje
-#dodaj keybinding ctrl r zeby odpalic
+sudo apt install rofi
+git clone --depth=1 https://github.com/adi1090x/rofi.git
+cd rofi
+chmod +x setup.sh
+./setup.sh
+#change version to one I like type-1 style 5
+sed -i "s/theme='style-1'/theme='style-5'/" ~/.config/rofi/launchers/type-1/launcher.sh

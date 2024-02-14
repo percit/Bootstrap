@@ -2,7 +2,6 @@
 
 sudo apt update
 
-#ustaw gita
 #ustaw snapa
 sudo apt install snapd
 pip3 install tldr
