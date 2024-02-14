@@ -1,7 +1,11 @@
 #!/bin/bash
 
-#pobierz rofi
-sudo apt install rofi
+if command -v rofi &> /dev/null; then
+    echo "rofi is already installed."
+else
+    sudo apt install rofi
+fi
+
 git clone --depth=1 https://github.com/adi1090x/rofi.git
 cd rofi
 chmod +x setup.sh
