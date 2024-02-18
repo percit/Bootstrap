@@ -1,36 +1,21 @@
 #!/bin/bash
 
+echo "log in in firefox and github"
+read -p "Press Enter to continue..."
+
+echo "Set up ssh in git"
+./scripts/setup_git.sh 
+read -p "Press Enter to continue..."
+
 sudo apt update
 
-#ustaw gita
-#ustaw snapa
-sudo apt install snapd
+#generic downloads
+sudo apt install snapd flameshot syncthing
 pip3 install tldr
+sudo snap install obsidian --classic
 
+./scripts/rofi-install.sh
+./scripts/zhs-install.sh
+./scripts/nvim-install.sh
 
-./rofi-install.sh
-./zhs-install.sh
-./flameshot-install.sh 
-./nvim-install.sh
-
-
-
-
-
-#randomowe rzeczy:
-#syncthing
-
-#obsydian
-
-#polybar
-
-#dodatkowo jakis key binding zeby odpalic obsydiana z lista taskow na dany dzien (ew jakos odpalic ticktick ) inny typ uzywal 
-#do tego org mode
-
-#https://youtu.be/Osg8lHJNTII?si=Tld4HKHDSG3UVos7 tutaj tez mowi o 0:59 o skrypcie, który mu pokazuje co ma zrobic w danym 
-#czasie i moze logowac ile zajmuje sie nad jakims taskiem 
-
-#https://github.com/hluk/CopyQ to jest takie cos, ze clipboard history miec
-
-
-#tutaj by byla wielka lista echo co masz zrobic teraz, co nie dziala na bazie skrypty
+./run_me_after_bootstrap.sh

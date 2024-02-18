@@ -1,21 +1,14 @@
 #!/bin/bash
 
-#needs
-#git ssh set up
-#snap set up
-#update done
-
 #check if nvim installed
 if command -v nvim &> /dev/null; then
     echo "Neovim is already installed."
 else
-    # Install Neovim
     sudo snap install nvim --classic
 fi
 
 
 #dependencies
-sudo apt-get update
 sudo apt-get install -y ripgrep npm
 
 #cleaning old neovim config
