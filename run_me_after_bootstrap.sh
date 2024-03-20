@@ -12,4 +12,7 @@ echo -e "\n"
 echo "5. Download Notatki and set obsidian vault"
 echo -e "\n"
 echo "6. Set settings => mouse and touchpad=> right click with click"
+echo -e "\n"
+echo "change ZSH_THEME to powerlevel10k/powerlevel10k in  ~/.zshrc"
+echo "add zsh-syntax-highlighting and zsh-autosuggestions to plugins in .zshrc and restart terminal"
 # echo -e "\n" is empty line
