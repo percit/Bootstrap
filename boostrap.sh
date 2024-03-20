@@ -10,7 +10,7 @@ read -p "Press Enter to continue..."
 sudo apt update
 
 #generic downloads
-sudo apt install snapd flameshot syncthing
+sudo apt install snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable
 pip3 install tldr
 sudo snap install obsidian --classic
 
