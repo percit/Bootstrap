@@ -9,4 +9,7 @@ echo "3. if you have issues run: https://dev.to/abdfnx/oh-my-zsh-powerlevel10k-c
 echo -e "\n"
 echo "4 Set up syncthing with this: https://www.youtube.com/watch?v=8bHdcfVzrgk " 
 echo -e "\n"
+echo "5. Download Notatki and set obsidian vault"
+echo -e "\n"
+echo "6. Set settings => mouse and touchpad=> right click with click"
 # echo -e "\n" is empty line
