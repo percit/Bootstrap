@@ -23,4 +23,4 @@ git clone https://github.com/percit/Nvim-config ~/.config/nvim
 
 echo "Neovim setup completed."
 echo "Start nvim."
-echo "Run :healthcheck"
+echo "Run :checkhealth"
