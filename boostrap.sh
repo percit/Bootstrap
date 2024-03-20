@@ -9,13 +9,16 @@ read -p "Press Enter to continue..."
 
 sudo apt update
 
+git config --global user.email "marcinzdunek100@gmail.com"
+git config --global user.name "Marcin Zdunek"
+
 #generic downloads
 sudo apt install snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable
 pip3 install tldr
 sudo snap install obsidian --classic
 
 ./scripts/rofi-install.sh
-./scripts/zhs-install.sh
+./scripts/zsh-install.sh
 ./scripts/nvim-install.sh
 
 ./run_me_after_bootstrap.sh
