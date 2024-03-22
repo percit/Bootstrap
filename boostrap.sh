@@ -9,11 +9,8 @@ read -p "Press Enter to continue..."
 
 sudo apt update
 
-git config --global user.email "marcinzdunek100@gmail.com"
-git config --global user.name "Marcin Zdunek"
-
 #generic downloads
-sudo apt install -y snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable
+sudo apt install -y snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable calibre
 pip3 install tldr
 sudo snap install obsidian --classic
 
