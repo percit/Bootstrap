@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "1. settings=>keyboard=>add a shortcut=> ctrl shift c => flameshot"
+echo "1. settings=>keyboard=>add a shortcut=> ctrl shift c => flameshot gui"
 echo -e "\n" 
 echo "2. settings=>keyboard=>add a shortcut=> ctrl r => ./.config/rofi/launchers/type-1/launcher.sh"
 echo -e "\n"
