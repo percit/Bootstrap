@@ -1,16 +1,5 @@
 #!/bin/bash
 
-#check if nvim installed
-if command -v nvim &> /dev/null; then
-    echo "Neovim is already installed."
-else
-    sudo snap install nvim --classic
-fi
-
-
-#dependencies
-sudo apt-get install -y ripgrep npm
-
 #cleaning old neovim config
 mv ~/.config/nvim{,.bak} || true
 mv ~/.local/share/nvim{,.bak} || true
