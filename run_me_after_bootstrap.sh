@@ -3,6 +3,7 @@
 echo "1. settings=>keyboard=>add a shortcut=> ctrl shift c => flameshot gui"
 echo -e "\n" 
 echo "2. settings=>keyboard=>add a shortcut=> ctrl r => ./.config/rofi/launchers/type-1/launcher.sh"
+echo "check .config/rofi/config.rasi for 'run,drun' and change it to 'run-drun'"
 echo -e "\n"
 echo "3. Run git config --global user.email email
           git config --global user.name name"
