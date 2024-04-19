@@ -10,12 +10,12 @@ read -p "Press Enter to continue..."
 sudo apt update
 
 #generic downloads
-sudo apt install snapd flameshot syncthing
+sudo apt install -y snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable calibre webp rofi zsh ripgrep npm
 pip3 install tldr
-sudo snap install obsidian --classic
+sudo snap install obsidian --classic nvim --classic
 
 ./scripts/rofi-install.sh
-./scripts/zhs-install.sh
+./scripts/zsh-install.sh
 ./scripts/nvim-install.sh
 
 ./run_me_after_bootstrap.sh
