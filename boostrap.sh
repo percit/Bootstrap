@@ -17,5 +17,6 @@ sudo snap install obsidian --classic nvim --classic
 ./scripts/rofi-install.sh
 ./scripts/zsh-install.sh
 ./scripts/nvim-install.sh
+./scripts/espanso-install.sh
 
 ./run_me_after_bootstrap.sh

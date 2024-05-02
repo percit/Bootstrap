@@ -5,7 +5,7 @@ cd rofi
 chmod +x setup.sh
 ./setup.sh
 #change version to one I like type-1 style 5
-sed -i "s/theme='style-1'/theme='style-5'/" ~/.config/rofi/launchers/type-1/launcher.sh
+sed -i "s/theme='style-1'/theme='style-15'/" ~/.config/rofi/launchers/type-1/launcher.sh
 
 
 #add keybinding ctrl r to that app
