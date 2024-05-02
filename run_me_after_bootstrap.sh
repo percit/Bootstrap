@@ -11,7 +11,8 @@ echo "4. Set settings => mouse and touchpad=> right click with click"
 echo -e "\n"
 echo "5. Download Notatki and set obsidian vault"
 echo -e "\n"
-echo "6. Run source $ZSH/oh-my-zsh.sh to configure zsh"
+echo "6. Run 'source $ZSH/oh-my-zsh.sh' and 'p10k configure' (if doesn't work, restart terminal) to configure zsh"
+echo -e "\n"
 echo "7 download anki from here https://apps.ankiweb.net/"
 echo -e "\n"
 echo "8 To set up Syncthing to launch in the launcher, click on 'Syncthing Web' in the actions menu at the top right corner.
@@ -39,5 +40,10 @@ printf '%s\n' '
 - trigger: ":U"
   replace: "Ü"
 '
-
+echo "11. run ./scripts/zsh-install.sh twice bc it stops script for some reason"
+echo -e "\n"
+echo "12. For xfce terminal: 
+Open the Edit menu and select Preferences
+Switch to the Colors tab
+Select Nord from the Presets drop-down menu"
 # echo -e "\n" is empty line
