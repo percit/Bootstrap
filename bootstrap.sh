@@ -18,6 +18,7 @@ sudo snap install nvim --classic
 ./scripts/rofi-install.sh
 ./scripts/nvim-install.sh
 ./scripts/espanso-install.sh
+./scripts/docker-install.sh
 
 git clone -b master git@github.com:nordtheme/xfce-terminal.git
 cd xfce-terminal 
