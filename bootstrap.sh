@@ -20,6 +20,7 @@ sudo snap install nvim --classic
 ./scripts/espanso-install.sh
 
 git clone -b master git@github.com:nordtheme/xfce-terminal.git
-./xfce-terminal/install.sh
-
+cd xfce-terminal 
+./install.sh
+cd ..
 ./run_me_after_bootstrap.sh
