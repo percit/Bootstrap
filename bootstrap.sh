@@ -10,7 +10,7 @@ read -p "Press Enter to continue..."
 sudo apt update
 
 #generic downloads
-sudo apt install -y snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable calibre webp rofi zsh ripgrep npm xfce4-terminal
+sudo apt install -y snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable calibre webp rofi zsh ripgrep npm xfce4-terminal ffmpeg
 pip3 install tldr
 sudo snap install obsidian --classic #can't install both with 1 command
 sudo snap install nvim --classic
