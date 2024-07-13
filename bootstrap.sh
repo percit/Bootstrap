@@ -3,7 +3,7 @@
 echo "log in in firefox and github"
 read -p "Press Enter to continue..."
 
-echo "Set up ssh in git"
+echo "Set up ssh for git"
 ./scripts/setup_git.sh 
 read -p "Press Enter to continue..."
 
@@ -17,11 +17,10 @@ sudo snap install nvim --classic
 
 ./scripts/rofi-install.sh
 ./scripts/nvim-install.sh
-./scripts/espanso-install.sh
+# ./scripts/espanso-install.sh # i don't really use this
 ./scripts/docker-install.sh
 
 git clone -b master git@github.com:nordtheme/xfce-terminal.git
-cd xfce-terminal 
+cd xfce-terminal # can't run ./xfce-terminal/install.sh, doesn't work
 ./install.sh
-cd ..
-./run_me_after_bootstrap.sh
+./../run_me_after_bootstrap.sh
