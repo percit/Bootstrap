@@ -7,13 +7,14 @@ echo "Set up ssh for git"
 ./scripts/setup_git.sh 
 read -p "Press Enter to continue..."
 
-sudo apt update
+sudo apt update && sudo apt upgrade
 
 #generic downloads
 sudo apt install -y snapd tig flameshot syncthing pip libxcb-xinerama0 libxcb-cursor0 libnss3 google-chrome-stable calibre webp rofi zsh ripgrep npm xfce4-terminal ffmpeg
 pip3 install tldr
-sudo snap install obsidian --classic #can't install both with 1 command
+sudo snap install obsidian --classic #didn't install for some reason
 sudo snap install nvim --classic
+`sudo snap install code --classic
 
 ./scripts/rofi-install.sh
 ./scripts/nvim-install.sh
