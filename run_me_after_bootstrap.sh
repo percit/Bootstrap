@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "1. settings=>keyboard=>add a shortcut=> ctrl shift c => flameshot gui"
+echo "1. settings=>keyboard=>add a shortcut=> win shift s => flameshot gui"
 echo -e "\n" 
 echo "2. settings=>keyboard=>add a shortcut=> ctrl r => ./.config/rofi/launchers/type-1/launcher.sh"
 echo "check .config/rofi/config.rasi for 'run,drun' and change it to 'run-drun'"
@@ -46,4 +46,6 @@ echo "12. For xfce terminal:
 Open the Edit menu and select Preferences
 Switch to the Colors tab
 Select Nord from the Presets drop-down menu"
+echo "13. Check Obsydian for rest"
+echo -e "\n"
 # echo -e "\n" is empty line
